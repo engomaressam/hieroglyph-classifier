@@ -4,7 +4,7 @@ A convolutional network that takes a photographed hieroglyph and names it by its
 
 | | |
 |---|---|
-| Try it | [Hugging Face Space](https://huggingface.co/spaces/omaressamrme/hieroglyph-classifier): drop in a glyph crop, get the top five codes |
+| Try it | [Hugging Face Space](https://huggingface.co/spaces/omaressamrme/demos): drop in a glyph crop, get the top five codes |
 | Model | [omaressamrme/hieroglyph-classifier](https://huggingface.co/omaressamrme/hieroglyph-classifier) (Keras, 2.1 M parameters, 8 MB) |
 | Training notebook on Kaggle | [hieroglyph-classifier-97-on-59-gardiner-signs](https://www.kaggle.com/code/engomaressam/hieroglyph-classifier-97-on-59-gardiner-signs) |
 | Data | [GlyphDataset](https://github.com/morrisfranken/glyphreader) (Franken & van Gemert, ACM Multimedia 2013, MIT): 4,210 glyphs, 50×75 px, from ten photographs of the Unas pyramid texts; Kaggle mirror `ahmedsamir1598/glyphdataset` |
