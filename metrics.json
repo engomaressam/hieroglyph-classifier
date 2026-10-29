@@ -1,0 +1,32 @@
+{
+ "version": "v2",
+ "glyphs_total": 4210,
+ "codes_total": 172,
+ "min_images": 10,
+ "codes_kept": 59,
+ "glyphs_kept": 3674,
+ "train": 2571,
+ "val": 368,
+ "test": 735,
+ "test_top1": 0.9687074829931973,
+ "test_top5": 0.9972789115646259,
+ "test_macro_f1": 0.93881136512858,
+ "epochs_run": 54,
+ "best_epoch": 34,
+ "train_minutes_cpu": 14.0,
+ "parameters": 2073691,
+ "confidence_gate": {
+  "0.8": {
+   "coverage": 0.9455782312925171,
+   "accuracy_on_kept": 0.9884892086330935
+  },
+  "0.9": {
+   "coverage": 0.9319727891156463,
+   "accuracy_on_kept": 0.9897810218978103
+  },
+  "0.95": {
+   "coverage": 0.8993197278911564,
+   "accuracy_on_kept": 0.9954614220877458
+  }
+ }
+}
